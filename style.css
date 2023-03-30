@@ -1,0 +1,107 @@
+body {
+  background-image: url("./assets/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 150px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.items a {
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.items a:hover {
+  text-decoration: underline;
+}
+#main {
+  text-align: center;
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+#search {
+  position: relative;
+  width: 500px;
+  height: 40px;
+  border-radius: 45px;
+  left: -10px;
+  font-size: 17px;
+  z-index: 0;
+}
+input{
+  padding-left: 45px;
+}
+#searchicon {
+  height: 20px;
+  position: relative;
+  top: 3px;
+}
+#submit {
+  position: relative;
+  left: 35px;
+  top: 3px;
+  border: none;
+  z-index: 1;
+}
+#submit:hover{
+  background-color:rgb(177, 176, 176);
+}
+#voiceassistant {
+  position: relative;
+  height: 25px;
+  left: -45px;
+  top: 7px;
+}
+.icons {
+  position: relative;
+  width: 40px;
+  margin-bottom: 20px;
+  left: 5px;
+}
+.grid-container {
+  display: grid;
+  width: 400px;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+  align-content: space-around;
+  box-sizing: border-box;
+}
+.grid-container :hover {
+  background-color: rgb(197, 246, 230);
+}
+
+.grid-item {
+  height: 70px;
+  padding: 20px 30px;
+  text-align: center;
+}
+.grid-item a {
+  text-decoration: none;
+  color: rgb(3, 4, 77);
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#bgchange {
+  position: relative;
+  width: 50px;
+  float: right;
+  left: -40px;
+  top: 40px;
+  border-radius: 50%;
+}
+#bgchange:hover {
+  background-color: bisque;
+  opacity: 0.5;
+}
+#facebook
+{
+  width:60px;
+}
